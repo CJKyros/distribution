@@ -74,8 +74,7 @@
 
 
   <build>
-    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
-      <plugins>
+    <plugins>
         <plugin>
 
           <groupId>org.mybatis.generator</groupId>
@@ -96,6 +95,5 @@
           </dependencies>
         </plugin>
       </plugins>
-    </pluginManagement>
   </build>
 </project>
